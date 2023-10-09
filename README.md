@@ -24,7 +24,7 @@ If you wanted to include a table of contents to sections, and then links to each
 
 ### Project Background
 
-If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
+
 
 ### Purpose
 
