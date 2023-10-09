@@ -32,7 +32,7 @@ If you wanted to include a table of contents to sections, and then links to each
 ### OpenStreetMap Plugin for Adding Layers
 
 
-Example of in process map ![in process image](C:\Users\brown\Documents\Final Mapping Project\Screenshots\QUICKOSM_chart.png)
+Example of in process map ![in process image](![Alt text](<../Documents/Final Mapping Project/Screenshots/QUICKOSM_chart.png>)
 
 1. **Example bold**
 2. *Example italics*
