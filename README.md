@@ -32,6 +32,10 @@ If you wanted to include a table of contents to sections, and then links to each
 ### OpenStreetMap Plugin for Adding Layers
 
 ![QuickOSM-Queries](QUICKOSM_chart.png)
+The third column in the chart is used to explain the symbology and filter used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query.   
+
+### Create Elevation Data for Many Glacier
+
 
 
 1. **Example bold**
