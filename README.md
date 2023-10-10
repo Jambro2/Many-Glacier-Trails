@@ -31,7 +31,7 @@ If you wanted to include a table of contents to sections, and then links to each
 ### Mapmaking Process
 ### OpenStreetMap Plugin for Adding Layers
 
-![QuickOSM-Queries](QUICKOSM_chart.png"Quick OSM Tool list")
+![QuickOSM-Queries](QUICKOSM_chart.png)
 
 
 1. **Example bold**
