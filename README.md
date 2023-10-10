@@ -16,7 +16,7 @@ If you wanted to include a table of contents to sections, and then links to each
 ### Data Source
 
 * Using the QUICKOSM Tool and OpenStreetMap Wiki to find specifice tags for the desired layers
-[Link to data source](https://wiki.openstreetmap.org/wiki )
+[Wiki Link](https://wiki.openstreetmap.org/wiki )
 * Elevation data downloaded from the USGS NED 1/3 arc-second raster digital elevation model. This data can be accessed at the USGS 3D Elevation Program [usgs.gov](https://apps.nationalmap.gov/downloader/)
 
 * Initial Data projection: EPSG:4326- WGS84
@@ -31,8 +31,8 @@ If you wanted to include a table of contents to sections, and then links to each
 ### Mapmaking Process
 ### OpenStreetMap Plugin for Adding Layers
 
+![QuickOSM-Queries](C:\Users\brown\Documents\Final Mapping Project\Screenshots\QUICKOSM_chart.png"Quick OSM Tool list")
 
-Example of in process map ![in process image](![Alt text](<../Documents/Final Mapping Project/Screenshots/QUICKOSM_chart.png>)
 
 1. **Example bold**
 2. *Example italics*
