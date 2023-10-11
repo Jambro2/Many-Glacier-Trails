@@ -37,7 +37,7 @@ This map was created to provide a helpful guide to anyone that has a limited amo
 ### Mapmaking Process
 ### OpenStreetMap Plugin for Adding Layers
 
-![QuickOSM-Queries](QUICKOSM_chart.png)
+![QuickOSM-Queries](Images/QUICKOSM_chart.png)
 
 The third column in the chart is used to explain the symbology and filter used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was accidentally not included, key: highway value: secondary, filtered to "name"='Going-to-the-sun Road'. 
 
