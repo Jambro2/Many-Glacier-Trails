@@ -50,7 +50,7 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 
 # Create elevation contours with GDAL
 
-![Data Added](
+![Data Added](Images/data_added.png)
 Add raster data USGS_13_n49w114_20210607.tif into QGIS 
 
 1. **Example bold**
@@ -63,8 +63,7 @@ Add raster data USGS_13_n49w114_20210607.tif into QGIS
 Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
 
 ### Future Ideas
-*Add images showing how Grinnell Glacier has changed and gotten smaller over the years
-*Be able to link pictures to the scenic viewpoints
+Add images showing how Grinnell Glacier has gotten smaller over the years. Be able to link pictures to the scenic viewpoints.
 
 ## Final Project Link
 
