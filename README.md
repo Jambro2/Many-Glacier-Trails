@@ -43,7 +43,7 @@ The third column in the chart is used to explain the symbology and filter used d
 
 ### Create Elevation Data for Many Glacier
 
-![USGS Data](Images/screenshot_USGS_elevationlayer.png)
+![USGS Data](Images/USGS_elevation_data.png)
 
 
 1. **Example bold**
