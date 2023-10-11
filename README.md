@@ -42,13 +42,13 @@ This map was created to provide a helpful guide to anyone that has a limited amo
 
 The third column in the chart is used to explain the symbology and filter used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was accidentally not included, key: highway value: secondary, filtered to "name"='Going-to-the-sun Road'. 
 
-### Create Elevation Data for Many Glacier
+### Get Elevation Data for Many Glacier
 
 ![USGS Data](Images/USGS_elevation_data.png)
 
 Download the elevation data from the USGS NED 1/3 arc-second raster digital elevation model. File format GeoTIFF.
 
-# Create elevation contours with GDAL
+### Create elevation contours with GDAL
 
 ![Data Added](Images/data_added.png)
 Add raster data USGS_13_n49w114_20210607.tif into QGIS 
@@ -59,6 +59,7 @@ Add raster data USGS_13_n49w114_20210607.tif into QGIS
 4. 
 
 ### Map summary
+![FinalMap](Images/FinalMap.png)
 
 Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
 
