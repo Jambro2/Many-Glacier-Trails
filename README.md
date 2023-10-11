@@ -10,6 +10,7 @@ If you wanted to include a table of contents to sections, and then links to each
 - [Project Background](#project-background)
 - [Purpose](#Purpose)
 - [Mapmaking Process](#Mapmaking-process)
+- [Future Ideas](#Future-Ideas)
 
 ***
 
@@ -45,6 +46,12 @@ The third column in the chart is used to explain the symbology and filter used d
 
 ![USGS Data](Images/USGS_elevation_data.png)
 
+Download the elevation data from the USGS NED 1/3 arc-second raster digital elevation model. File format GeoTIFF.
+
+# Create elevation contours with GDAL
+
+![Data Added](
+Add raster data USGS_13_n49w114_20210607.tif into QGIS 
 
 1. **Example bold**
 2. *Example italics*
@@ -55,6 +62,9 @@ The third column in the chart is used to explain the symbology and filter used d
 
 Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
 
+### Future Ideas
+*Add images showing how Grinnell Glacier has changed and gotten smaller over the years
+*Be able to link pictures to the scenic viewpoints
 
 ## Final Project Link
 
