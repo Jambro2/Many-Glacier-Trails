@@ -41,7 +41,7 @@ The workflow will look like this:
 
 First, open QGIS, under browser:XYZ Tiles, add the basemap OPENSTREET MAP.
 The Project Coordinate System we will be using is EPSG:32100. You can change this by going to Project Properties-CRS.
-Using the Data Source above, add download the shapefiles for Counties [cb_2022_us_county_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip) and States [cb_2022_us_state_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_state_500k.zip) 
+Using the Data Sources above, download Counties [cb_2022_us_county_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip) and States [cb_2022_us_state_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_state_500k.zip) 
 
 Unzip the zip files. In QGIS go to Layer on the menu, add layer, then add vector layer. Add both .shp files to the map. 
 
