@@ -4,7 +4,7 @@
 ## Project Contents
 
 - [Data Source](#Data-Source)
-- [Project Background & Purpose](#project-background-&purpose)
+- [Project Background & Purpose](#project-background-and-purpose)
 - [Mapmaking Process](#Mapmaking-process)
 - [Future Ideas](#Future-Ideas)
 
