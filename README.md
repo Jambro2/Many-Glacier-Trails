@@ -4,7 +4,7 @@
 ## Project Contents
 
 - [Data Source](#Data-Source)
-- [Project Background & Purpose](#project-background-and-purpose)
+- [Project Background and Purpose](#project-background-and-purpose)
 - [Mapmaking Process](#Mapmaking-process)
 - [Future Ideas](#Future-Ideas)
 
@@ -22,7 +22,7 @@
 * Initial Data projection: EPSG:4326- WGS84
 * Final Map projection: EPSG: 32100- NAD83/Montana
 
-### Project Background & Purpose
+### Project Background and Purpose
 
 This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming for a first timer. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go I will be more prepared after studying a map like this one. And I will even be able to discover new trails around Many Glacier.  
 
@@ -64,6 +64,8 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 
 Right-click on the Contours_20ft layer, go to properties, symbology, scroll down to rule-based, and add rules for Index 1 & 0 to show contours as you zoom in
 
+![Contours](Images/contours_zoomedin.png)
+*Contour lines appearing at 1:7500*
 
 ### Map summary
 ![FinalMap](Images/FinalMap.png)
