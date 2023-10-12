@@ -28,10 +28,10 @@ If you wanted to include a table of contents to sections, and then links to each
 
 ### Project Background
 
-This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area aka the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming for a first timer. A concern for some visitors is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. My favorite hike is the Grinnell Glacier Trail. While hiking, I would have liked to know the names of the mountain peaks, lakes, and other geographic features. 
+This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area aka the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming for a first timer. A concern for some visitors is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. My favorite hike is the Grinnell Glacier Trail. While hiking, I would have liked to know the names of the mountain peaks, lakes, and other geographic features that can be viewed on this map. 
 
 ![GrinnellLake](Images/Grinnell_1.jpg)   
-*Picture of Grinnell Lake taken from the Grinnell Glacier Trail *
+*Picture of Grinnell Lake taken from the Grinnell Glacier Trail*
 
 ### Purpose
 
@@ -52,6 +52,11 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 
 ![Data Added](Images/data_added.png)
 Add raster data USGS_13_n49w114_20210607.tif into QGIS 
+
+![Rule Based Contour Lines](Images/rule-based-contours.png)
+*Use rule based zoom for the Contours_20ft layer for Index 1 & 0* 
+
+Right-click on the Contours_20ft layer, go to properties, symbology, scroll down to rule-based, and add rules for Index 1 & 0 to show contours as you zoom in
 
 1. **Example bold**
 2. *Example italics*
