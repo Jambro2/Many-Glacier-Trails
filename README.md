@@ -43,7 +43,10 @@ First, open QGIS, under browser:XYZ Tiles, add the basemap OPENSTREET MAP.
 The Project Coordinate System we will be using is EPSG:32100. You can change this by going to Project Properties-CRS.
 Using the Data Source above, add download the shapefiles for Counties [cb_2022_us_county_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip) and States [cb_2022_us_state_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_state_500k.zip) 
 
+Unzip the zip files. In QGIS go to Layer on the menu, add layer, then add vector layer. Add both .shp files to the map. 
+
 ![QuickOSM-Queries](Images/QUICKOSM_chart.png)
+
 *Information to customize the map using the QuickOSM Tool in QGIS*
 
 The third column in the chart is used to explain the symbology and filters used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was inadvertently not included, **Key: highway Value: secondary, filtered to "name"='Going-to-the-sun Road'** 
