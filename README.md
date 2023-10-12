@@ -1,14 +1,10 @@
-# MANY GLACIER MAP: Utilizing QGIS 
+# MANY GLACIER TRAIL MAP: Utilizing QGIS 
 
 
 ## Project Contents
 
-If you wanted to include a table of contents to sections, and then links to each section.
-
-
 - [Data Source](#Data-Source)
-- [Project Background](#project-background)
-- [Purpose](#Purpose)
+- [Project Background & Purpose](#project-background)
 - [Mapmaking Process](#Mapmaking-process)
 - [Future Ideas](#Future-Ideas)
 
@@ -26,50 +22,55 @@ If you wanted to include a table of contents to sections, and then links to each
 * Initial Data projection: EPSG:4326- WGS84
 * Final Map projection: EPSG: 32100- NAD83/Montana
 
-### Project Background
+### Project Background & Purpose
 
-This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area aka the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming for a first timer. A concern for some visitors is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. My favorite hike is the Grinnell Glacier Trail. While hiking, I would have liked to know the names of the mountain peaks, lakes, and other geographic features that can be viewed on this map. 
+This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming for a first timer. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go I will be more prepared after studying a map like this one. And I will even be able to discover new trails around Many Glacier.  
 
 ![GrinnellLake](Images/Grinnell_1.jpg)   
-*Picture of Grinnell Lake taken from the Grinnell Glacier Trail*
-
-### Purpose
+*Picture of Grinnell Lake from the Grinnell Glacier Trail taken by me*
 
 ### Mapmaking Process
+The workflow for this map will look like this:
+1. Open QGIS
+2. Add Basemap & Coordinate System
+3. Run Queries for layers using QUICKOSM Tool
+4. Add USGS elevation Data
+5. Customize layers and symbology
+   
 ### OpenStreetMap Plugin for Adding Layers
 
-![QuickOSM-Queries](Images/QUICKOSM_chart.png)
+First, open QGIS, under browser:XYZ Tiles, add the basemap OPENSTREET MAP.
+The Project Coordinate System we will be using is EPSG:32100. You can change this by going to Project Properties-CRS.
 
-The third column in the chart is used to explain the symbology and filter used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was accidentally not included, key: highway value: secondary, filtered to "name"='Going-to-the-sun Road'. 
+![QuickOSM-Queries](Images/QUICKOSM_chart.png)
+*Information to customize the map using the QuickOSM Tool in QGIS*
+
+The third column in the chart is used to explain the symbology and filters used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was inadvertently not included, **Key: highway Value: secondary, filtered to "name"='Going-to-the-sun Road'** 
 
 ### Get Elevation Data for Many Glacier
 
 ![USGS Data](Images/USGS_elevation_data.png)
+*This is what the elevation data should look like*
 
 Download the elevation data from the USGS NED 1/3 arc-second raster digital elevation model. File format GeoTIFF.
 
 ### Create elevation contours with GDAL
 
 ![Data Added](Images/data_added.png)
-Add raster data USGS_13_n49w114_20210607.tif into QGIS 
+*Add raster data USGS_13_n49w114_20210607.tif into QGIS*
 
 ![Rule Based Contour Lines](Images/rule-based-contours.png)
 *Use rule based zoom for the Contours_20ft layer for Index 1 & 0* 
 
 Right-click on the Contours_20ft layer, go to properties, symbology, scroll down to rule-based, and add rules for Index 1 & 0 to show contours as you zoom in
 
-1. **Example bold**
-2. *Example italics*
-3. 
-4. 
 
 ### Map summary
 ![FinalMap](Images/FinalMap.png)
-
-Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
+*The final map and list of layers will look like this when zoomed out*
 
 ### Future Ideas
-Add images showing how Grinnell Glacier has gotten smaller over the years. Be able to link pictures to the scenic viewpoints.
+There is a lot of research at GNP on the effects climate change is having on glaciers. I would like to add different layers showing how Grinnell Glacier has been shrinking over the years. Also, it would be neat to link pictures to each of the scenic viewpoints.
 
 ## Final Project Link
 
