@@ -24,23 +24,24 @@
 
 ### Project Background and Purpose
 
-This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming for a first timer. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go I will be more prepared after studying a map like this one. And I will even be able to discover new trails around Many Glacier.  
+This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go, I will be more prepared after studying a map like this one. I will even be able to discover new trails around Many Glacier.  
 
 ![GrinnellLake](Images/Grinnell_1.jpg)   
 *Picture of Grinnell Lake from the Grinnell Glacier Trail taken by me*
 
 ### Mapmaking Process
-The workflow for this map will look like this:
+The workflow will look like this:
 1. Open QGIS
 2. Add Basemap & Coordinate System
 3. Run Queries for layers using QUICKOSM Tool
-4. Add USGS elevation Data
+4. Add USGS elevation Data and extract contours
 5. Customize layers and symbology
    
 ### OpenStreetMap Plugin for Adding Layers
 
 First, open QGIS, under browser:XYZ Tiles, add the basemap OPENSTREET MAP.
 The Project Coordinate System we will be using is EPSG:32100. You can change this by going to Project Properties-CRS.
+Using the Data Source above, add download the shapefiles for Counties [cb_2022_us_county_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip) and States [cb_2022_us_state_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_state_500k.zip) 
 
 ![QuickOSM-Queries](Images/QUICKOSM_chart.png)
 *Information to customize the map using the QuickOSM Tool in QGIS*
