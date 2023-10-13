@@ -63,17 +63,19 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 ![Data Added](Images/data_added.png)
 *Add raster data USGS_13_n49w114_20210607.tif into QGIS*
 
-1.	Clip Raster by Extent to site defined at 1:25,000 scale. Click on Raster on the menu -> Extraction -> Clip Raster by extent
+1.	Clip Raster by Extent to site defined at 1:25,000 scale. Click on Raster on the menu -> Extraction -> Clip Raster by extent. Use the Draw on Canvas option
    ![Clipbyextent](Images/after_clip_by_extent.png)
   	*After Clip by Extent*
   	
 2.	Use the Raster Calculator to convert elevation units from meters to feet.
-  ![RasterCalc](
+  ![RasterCalc](Images/raster_calc.png)
    *Raster Calculator: Use expression "Many_glacier_clip@1" * 3.281*
   	
 4.	Make elevation contours with a 20-foot interval.
-a.	Screenshot taken
-5.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
+
+*Raster Extraction Settings*
+
+6.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
    
 a.	Screenshot of field calculator 
 
