@@ -68,7 +68,7 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
   	*After Clip by Extent*
   	
 2.	Use the Raster Calculator to convert elevation units from meters to feet.
-  ![RasterCalc](Images/rastercalculator.png)
+  ![RasterCalc](
    *Raster Calculator: Use expression "Many_glacier_clip@1" * 3.281*
   	
 4.	Make elevation contours with a 20-foot interval.
@@ -76,10 +76,9 @@ a.	Screenshot taken
 5.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
    
 a.	Screenshot of field calculator 
-b.	Screenshot of attribute table 
+
 ![Attribute Table](Images/after_field_calc.png)
 
-![Field Calc](Images/attributetableafterfieldcalc.png)
 
 ![Rule Based Contour Lines](Images/rule-based-contours.png)
 *Use rule based zoom for the Contours_20ft layer for Index 1 & 0* 
