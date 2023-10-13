@@ -84,7 +84,7 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 a.	Screenshot of field calculator 
 
 ![Attribute Table](Images/after_field_calc.png)
-
+*What the attribute table should look like after adding the new column Index*
 
 ![Rule Based Contour Lines](Images/rule-based-contours.png)
 *Use rule based zoom for the Contours_20ft layer for Index 1 & 0* 
@@ -95,9 +95,10 @@ Right-click on the Contours_20ft layer, go to properties, symbology, scroll down
 *Contour lines appearing at 1:7500*
 
 **Step 5:** Customizing Layers and adding Symbology
-I saved this step for the end. It can be fun putting the finishing touches on your map. Choosing the SVG images for layers and the font size and colors for the labels will help make the map easier to read and visually pleasing. 
+I saved this step for the end. It can be fun putting the finishing touches on your map. Choosing a SVG image for differnet layers and the font size and colors for labels will help make the map easier to read and visually pleasing. 
 
-![Scenic Viewpoints]()
+![Scenic Viewpoints](Images/symbology_viewpts.png)
+*Example of editing the layer for Scenic Viewpoints by adding SVG image of camera*
 
 ### Map summary
 ![FinalMap](Images/FinalMap.png)
