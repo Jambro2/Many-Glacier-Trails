@@ -77,7 +77,7 @@ a.	Screenshot taken
    
 a.	Screenshot of field calculator 
 b.	Screenshot of attribute table 
-![Attribute Table(Images/after_field calc.png)
+![Attribute Table](Images/after_field_calc.png)
 
 ![Field Calc](Images/attributetableafterfieldcalc.png)
 
