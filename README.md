@@ -33,7 +33,7 @@ This map was created to provide a helpful guide to anyone that has a limited amo
 The workflow will look like this:
 1. Open QGIS
 2. Add Basemap & Coordinate System
-3. Run Queries for layers using QUICKOSM Tool
+3. Run Queries for layers using QUICKOSM Plugin Tool
 4. Add USGS elevation Data and extract contours
 5. Customize layers and symbology
    
