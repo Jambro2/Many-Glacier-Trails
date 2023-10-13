@@ -80,12 +80,13 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
    *Raster Extraction Settings*
 
    d.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it             differently on the map.
-   
-a.	Screenshot of field calculator 
+   ![Field Calc](Images/field_calc.png)
+*Adding the field name Index to symbolize "1" and "0" separately on the map*
 
 ![Attribute Table](Images/after_field_calc.png)
-*What the attribute table should look like after adding the new column Index*
+*What the attribute table should look like after adding the new field name Index*
 
+Now, edit the contour layer with rule-based zoom
 ![Rule Based Contour Lines](Images/rule-based-contours.png)
 *Use rule based zoom for the Contours_20ft layer for Index 1 & 0* 
 
