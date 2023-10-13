@@ -56,7 +56,7 @@ The third column in the chart is used to explain the symbology and filters used 
 Step 4: Using the link [usgs.gov](https://apps.nationalmap.gov/downloader/) , navigate to the search box and type Many Glacier, MT.
 To the left of the map, you will use the Elevation Products (3DEP).
 
-![USGS Data](Images/USGS_elevation_data.png)
+![USGS Elevation Data](Images/USGS_elevation_data1.png)
 *This is what the elevation data should look like*
 
 Download the elevation data from the USGS NED 1/3 arc-second raster digital elevation model. File format GeoTIFF.
