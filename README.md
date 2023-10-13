@@ -49,6 +49,7 @@ Unzip the zip files. In QGIS go to Layer on the top menu, add layer, then add ve
 This step was time consuming. It combines finding the correct key:value tags, using the Drop Fields tool, filtering these layers, and later customizing them with symbology and labels. 
 
 ![QuickOSM-Queries](Images/QUICKOSM_chart.png)
+
 *Information provided for customizing the map using the QuickOSM Plugin Tool in QGIS*
 
 The third column in the chart is used to explain the symbology and filters used during the editing process for each layer. The Drop Fields tool (found in the Processing Toolbox) was used to narrow down the attributes table after each query. One query that was inadvertently not included in the above chart, **Key: highway Value: secondary, filtered to "name"='Going-to-the-Sun Road'** I wanted to highlight Going-to-the-Sun Road because it is the main road to take through the park and leads visitors to a majority of the trails and scenic viewpoints.  
