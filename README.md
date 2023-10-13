@@ -72,7 +72,7 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
    *Raster Calculator: Use expression "Many_glacier_clip@1" * 3.281*
   	
 4.	Make elevation contours with a 20-foot interval.
-
+![Raster Extraction](Images/extracting_contours.png)
 *Raster Extraction Settings*
 
 6.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
