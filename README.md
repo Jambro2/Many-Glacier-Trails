@@ -12,7 +12,7 @@
 
 ### Data Source
 
-* Using the QUICKOSM Tool and OpenStreetMap Wiki to find specifice tags for the desired layers
+* Using the QUICKOSM Plugin Tool and OpenStreetMap Wiki to find specifice tags for the desired layers
 [Wiki Link](https://wiki.openstreetmap.org/wiki )
 * Elevation data downloaded from the USGS NED 1/3 arc-second raster digital elevation model. This data can be accessed at the USGS 3D Elevation Program [usgs.gov](https://apps.nationalmap.gov/downloader/)
 * [cb_2022_us_county_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip) (Shapefile) filtered to "name"='Glacier'
@@ -24,7 +24,7 @@
 
 ### Project Background and Purpose
 
-This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park. GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go, I will be more prepared after studying a map like this one. I will even be able to discover new trails around Many Glacier.  
+This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park (GNP). GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go, I will be more prepared and will be able to discover new trails and scenery at Many Glacier.  
 
 ![GrinnellLake](Images/Grinnell_1.jpg)   
 *Picture of Grinnell Lake from the Grinnell Glacier Trail taken by me*
