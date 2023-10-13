@@ -74,8 +74,10 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 4.	Make elevation contours with a 20-foot interval.
 a.	Screenshot taken
 5.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
+   
 a.	Screenshot of field calculator 
 b.	Screenshot of attribute table 
+![Attribute Table(Images/after_field calc.png)
 
 ![Field Calc](Images/attributetableafterfieldcalc.png)
 
