@@ -45,7 +45,7 @@ Using the Data Sources above, download Counties [cb_2022_us_county_500k.zip](htt
 
 Unzip the zip files. In QGIS go to Layer on the menu, add layer, then add vector layer. Add .shp files for counties and states to the map. Then filter accordingly by right clicking the added layers, going to filter, and filter the state layer to show "name"='Montana' & county layer to show "name"= 'Glacier'
 
-**Step 3:** Run Queries for layers using QUICKOSM Tool; This step is time consuming as it combines finding the correct kay:value tags, using the drop fields tool, filtering some of the layers to narrow down the field, and customizing them with symbology and labels. 
+**Step 3:** Run Queries for layers using QUICKOSM Tool; This step was time consuming. It combines finding the correct key:value tags, using the drop fields tool, filtering these layers, and later customizing them with symbology and labels. 
 
 ![QuickOSM-Queries](Images/QUICKOSM_chart.png)
 
@@ -54,7 +54,7 @@ Unzip the zip files. In QGIS go to Layer on the menu, add layer, then add vector
 The third column in the chart is used to explain the symbology and filters used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was inadvertently not included above, **Key: highway Value: secondary, filtered to "name"='Going-to-the-sun Road'** I wanted to highlight Going to the Sun Road since it is the main road to take through the park and can help visitors access most of the trails and scenic viewpoints.  
 
 ### Download Elevation Data for Many Glacier
-Step 4: Using the link [usgs.gov](https://apps.nationalmap.gov/downloader/) , navigate to the search box and type Many Glacier, MT.
+**Step 4:** Using the link [usgs.gov](https://apps.nationalmap.gov/downloader/) , navigate to the search box and type Many Glacier, MT.
 To the left of the map, you will use the Elevation Products (3DEP).
 
 ![USGS Elevation Data](Images/USGS_elevation_data1.png)
@@ -67,19 +67,19 @@ Download the elevation data from the USGS NED 1/3 arc-second raster digital elev
 ![Data Added](Images/data_added.png)
 *Add raster data USGS_13_n49w114_20210607.tif into QGIS*
 
-1.	Clip Raster by Extent to site defined at 1:25,000 scale. Click on Raster on the menu -> Extraction -> Clip Raster by extent. Use the Draw on Canvas option
+   a.	Clip Raster by Extent to site defined at 1:25,000 scale. Click on Raster on the menu -> Extraction -> Clip Raster by extent. Use    the Draw on Canvas option
    ![Clipbyextent](Images/after_clip_by_extent.png)
   	*After Clip by Extent*
   	
-2.	Use the Raster Calculator to convert elevation units from meters to feet.
-  ![RasterCalc](Images/raster_calc.png)
+   b.	Use the Raster Calculator to convert elevation units from meters to feet.
+     ![RasterCalc](Images/raster_calc.png)
    *Raster Calculator: Use expression "Many_glacier_clip@1" * 3.281*
   	
-4.	Make elevation contours with a 20-foot interval.
-![Raster Extraction](Images/extracting_contours.png)
-*Raster Extraction Settings*
+   c.	Make elevation contours with a 20-foot interval.
+   ![Raster Extraction](Images/extracting_contours.png)
+   *Raster Extraction Settings*
 
-6.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it differently on the map.
+   d.	Field Calculator to make index contours for every 20 feet. An index contour has an attribute that allows us to symbolize it             differently on the map.
    
 a.	Screenshot of field calculator 
 
@@ -93,6 +93,11 @@ Right-click on the Contours_20ft layer, go to properties, symbology, scroll down
 
 ![Contours](Images/contours_zoomedin.png)
 *Contour lines appearing at 1:7500*
+
+**Step 5:** Customizing Layers and adding Symbology
+I saved this step for the end. It can be fun putting the finishing touches on your map. Choosing the SVG images for layers and the font size and colors for the labels will help make the map easier to read and visually pleasing. 
+
+![Scenic Viewpoints]()
 
 ### Map summary
 ![FinalMap](Images/FinalMap.png)
