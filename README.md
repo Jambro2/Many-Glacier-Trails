@@ -27,7 +27,7 @@
 This map was created to provide a helpful guide to anyone that has a limited amount of time while visiting Glacier National Park (GNP). GNP covers over 1 million acres, which is why I chose to focus on the Many Glacier area a.k.a the "Switzerland of North America". Many Glacier is on the northeast side of GNP and has some of the most iconic hiking trails and glaciers in the entire park. With so much to see, it can feel overwhelming. A concern some visitors have is feeling altitude sickness. For this reason, included on the map are elevation contours. If you are coming from flatland, studying the contours can help determine the amount of physical exertion that will be required to complete the hike. Other important features on the map include bathrooms, camping sites, and scenic viewpoints. While touring the park years ago, I discovered my favorite hike was the Grinnell Glacier Trail. Prior to hiking, I wish I had researched the surrounding geologic features and knew the names of the mountain peaks & lakes I passed. Alas, the next time I go, I will be more prepared and will be able to discover new trails and scenery at Many Glacier.  
 
 ![GrinnellLake](Images/Grinnell_1.jpg)   
-*Picture of Grinnell Lake from the Grinnell Glacier Trail taken by me*
+*Picture of Grinnell Lake from the Grinnell Glacier Trail taken by Jamie*
 
 ### Mapmaking Process
 The workflow will look like this:
