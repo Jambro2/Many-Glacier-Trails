@@ -19,7 +19,7 @@
 * [cb_2022_us_state_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_state_500k.zip) (Shapefile) filtered to "name"='Montana'
     * Source: [U.S. Census Bureau TIGER Products](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html) 
 
-* Initial Data projection: EPSG:4326- WGS84
+* Initial Data projection: EPSG:3857- WGS84
 * Final Map projection: EPSG: 32100- NAD83/Montana
 
 ### Project Background and Purpose
