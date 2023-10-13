@@ -39,19 +39,22 @@ The workflow will look like this:
    
 ### OpenStreetMap Plugin for Adding Layers
 
-First, open QGIS, under browser:XYZ Tiles, add the basemap OPENSTREET MAP.
+Steps 1 & 2: Open QGIS, under browser:XYZ Tiles, add the basemap OPENSTREET MAP.
 The Project Coordinate System we will be using is EPSG:32100. You can change this by going to Project Properties-CRS.
 Using the Data Sources above, download Counties [cb_2022_us_county_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip) and States [cb_2022_us_state_500k.zip](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_state_500k.zip) 
 
-Unzip the zip files. In QGIS go to Layer on the menu, add layer, then add vector layer. Add both .shp files to the map. 
+Unzip the zip files. In QGIS go to Layer on the menu, add layer, then add vector layer. Add .shp files for counties and states to the map. Then filter accordingly by right clicking the added layers, going to filter, and filter the state layer to show "name"='Montana' & county layer to show "name"= 'Glacier'
+
+Step 3: Run Queries for layers using QUICKOSM Tool; This step is time consuming as it combines finding the correct kay:value tags, using the drop fields tool, filtering some of the layers to narrow down the field, and customizing them with symbology and labels. 
 
 ![QuickOSM-Queries](Images/QUICKOSM_chart.png)
-
 *Information to customize the map using the QuickOSM Tool in QGIS*
 
-The third column in the chart is used to explain the symbology and filters used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was inadvertently not included, **Key: highway Value: secondary, filtered to "name"='Going-to-the-sun Road'** 
+The third column in the chart is used to explain the symbology and filters used during the editing process for each layer. The Drop Fields tool was used to narrow down the attributes table after each query. A query that was inadvertently not included above, **Key: highway Value: secondary, filtered to "name"='Going-to-the-sun Road'** I wanted to highlight Going to the Sun Road since it is the main road to take through the park and can help visitors access most of the trails and scenic viewpoints.  
 
 ### Get Elevation Data for Many Glacier
+Step 4: Using the link [usgs.gov](https://apps.nationalmap.gov/downloader/) , navigate to the search box and type Many Glacier, MT.
+To the left of the map, you will use the Elevation Products (3DEP).
 
 ![USGS Data](Images/USGS_elevation_data.png)
 *This is what the elevation data should look like*
