@@ -97,7 +97,8 @@ Right-click on the Contours_20ft layer, go to properties, symbology, scroll down
 *Contour lines appearing at 1:7500*
 
 **Step 5:** Customizing Layers and adding Symbology
-I saved this step for the end. It can be fun putting the finishing touches on your map. Choosing a SVG image for differnet layers and the font size and colors for labels will help make the map easier to read and visually pleasing. 
+
+I saved this step for the end. It can be fun putting the finishing touches on your map. Choosing a SVG image for different layers and the font size and colors for labels will help make the map easier to read and hopefully visually pleasing. 
 
 ![Scenic Viewpoints](Images/symbology_viewpts.png)
 *Example of editing the layer for Scenic Viewpoints by adding SVG image of camera*
@@ -111,7 +112,7 @@ There is a lot of research at GNP on the effects climate change is having on gla
 
 ## Final Project Link
 
-Please view the [final map online](www.github...)
+Please view the [final map online](index.html)
 
 
 [def]: #https://wiki.openstreetmap.org/wiki
