@@ -112,7 +112,7 @@ There is a lot of research at GNP on the effects climate change is having on gla
 
 ## Final Project Link
 
-Please view the [final map online](index.html)
+Please view the [final map online](http://127.0.0.1:5500/index.html)
 
 
 [def]: #https://wiki.openstreetmap.org/wiki
